@@ -38,7 +38,8 @@ require_once 'includes/header.php';
                     <input type="password" placeholder="Enter Password">
                     <p class="mt-1 text-[#fbf4e7]">No account? Register <a class="text-blue-500 underline" href="register.php">here</a>.</p>
 
-                    <button class="mt-4 mx-auto text-black bg-[#f7ecd6] border-0 px-5 py-2 rounded-2xl cursor-pointer">Submit</button>
+                    <button class="mt-4 mx-auto text-black bg-[#f7ecd6] border-0 px-5 py-2 rounded-2xl cursor-pointer" type="submit">Submit</button>
+                    <button class="mt-4 mx-auto text-[#f7ecd6] border border-[#f7ecd6] px-5 py-2 rounded-2xl cursor-pointer" type="button" onclick="window.location.assign('my_dashboard.php')">Dashboard</button>
                 </div>
             </div>
         </div>
