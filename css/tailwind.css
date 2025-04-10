@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    @apply bg-[#485268] placeholder:text-[#a0a4b1] text-white px-3 py-2 rounded-lg !outline-none border border-solid border-[#6c7283] focus:border-[#a8acb6]
+}
+
+a.contact {
+    transition: box-shadow 0.1s;
+    @apply rounded-xl
+}
+
+a.contact:hover {
+    box-shadow: 0 0 10px #fbf4e7;
+    text-shadow: 0 0 10px #fbf4e7;
+}
+
+select {
+    @apply bg-[#485268] placeholder:text-[#a0a4b1] text-white px-3 py-2 rounded-lg !outline-none border border-solid border-[#6c7283] focus:border-[#a8acb6]
+}
+
+th {
+    @apply border px-14 rounded-2xl
+}
+
+td {
+    @apply border rounded-2xl
+}
